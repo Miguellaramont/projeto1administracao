@@ -101,7 +101,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color: #e9e4f0;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -120,20 +120,21 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-family: 'Poppins', sans-serif; -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
-  color: #343a40;
+  color: #3CA55C;
 }
 
 h1, .h1 {
-  font-size: 75px;
+  font-size: 62px;
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 }
 
 h2, .h2 {
   font-size: calc(1.475rem + 2.7vw);
+  text-decoration: underline;
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -250,10 +251,10 @@ sup {
 
 a {
   color: #348F50;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
-  color: var(--bs-link-hover-color);
+  opacity: 65%;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -7655,7 +7656,7 @@ textarea.form-control-lg {
 
 .mb-0 {
   margin-bottom: 0 !important;
-  color: #3CA55C;  /* fallback for old browsers */
+  color: #434343;  /* fallback for old browsers */
   color: -webkit-linear-gradient(to right, #B5AC49, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
   color: linear-gradient(to right, #B5AC49, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
@@ -8142,9 +8143,10 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background: #11998e;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  background: #283c86;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .bg-secondary {
